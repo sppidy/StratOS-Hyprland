@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh 
+pkill eww 
+eww -c $HOME/.config/eww/dashboard/ daemon > /dev/null
+$HOME/.config/hypr/scripts/eww-open-fancy

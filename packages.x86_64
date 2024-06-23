@@ -33,6 +33,7 @@ edk2-shell
 efibootmgr
 # emacs
 ethtool
+# eww
 exfatprogs
 eza
 f2fs-tools
@@ -44,33 +45,25 @@ fzf
 git
 github-cli
 
-# GNOME-related packages
-# gnome
-gdm
-gnome-backgrounds
-gnome-characters
-# gnome-color-manager
-gnome-control-center
-gnome-font-viewer
-gnome-keyring
-gnome-screenshot
-gnome-session
-gnome-settings-daemon
-gnome-shell
-gnome-shell-extensions
-# gnome-software
-gnome-system-monitor
-gedit
-gnome-terminal
-# gnome-text-editor
-gnome-tour
-gnome-user-share
-nautilus
-loupe
-xdg-desktop-portal-gnome
-xdg-user-dirs-gtk
-
-
+# Hyprland-related
+ly
+waybar
+mako
+pipewire-pulse
+grim
+slurp
+swappy
+pinentry
+wireplumber
+# eww-wayland
+# pyprland
+hyprland
+hyprcursor
+hyprlock
+hyprpaper
+hypridle
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
 
 # gnu-netcat
 gpart
@@ -116,6 +109,8 @@ nano
 # ndisc6
 neovim
 networkmanager
+network-manager-applet
+# nwg-dock-hyprland
 # nfs-utils
 # nilfs-utils
 npm
@@ -125,6 +120,7 @@ open-iscsi
 open-vm-tools
 openssh
 os-prober
+pacman-contrib
 # partclone
 # parted
 # partimage
@@ -153,6 +149,9 @@ testdisk
 # tpm2-tools
 # tpm2-tss
 ttf-jetbrains-mono-nerd
+ttf-nerd-fonts-symbols-common
+ttf-nerd-fonts-symbols-mono
+noto-fonts
 # udftools
 usb_modeswitch
 usbmuxd

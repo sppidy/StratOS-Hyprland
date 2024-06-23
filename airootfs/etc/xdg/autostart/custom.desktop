@@ -1,4 +1,4 @@
-# Start GNOME in the live environment
+# Start Hyprland in the live environment
 [Desktop Entry]
 Type=Application
-Exec=gnome-session
+Exec=Hyprland

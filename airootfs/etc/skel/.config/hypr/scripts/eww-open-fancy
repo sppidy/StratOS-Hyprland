@@ -1,0 +1,2 @@
+#!/usr/bin/env fish
+eww -c ~/.config/eww/dashboard/ close system uptime clock calendar || eww -c ~/.config/eww/dashboard/ open-many system uptime clock calendar
