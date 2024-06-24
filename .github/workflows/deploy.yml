@@ -31,7 +31,7 @@ jobs:
       - name: Build ISO
         id: build_iso
         run: |
-          cd StratOS-iso
+          cd StratOS-Hyprland
           sudo bash ./build.sh
 
       - name: Create GitHub Release
@@ -52,6 +52,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: StratOS-iso/output/StratOS-${{ env.BUILD_DATE }}-x86_64.iso
+          asset_path: StratOS-Hyprland/output/StratOS-${{ env.BUILD_DATE }}-x86_64.iso
           asset_name: StratOS-Hyprland-${{ env.BUILD_DATE }}-x86_64.iso
           asset_content_type: application/octet-stream
