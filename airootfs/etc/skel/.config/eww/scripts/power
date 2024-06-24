@@ -1,0 +1,2 @@
+#!/usr/bin/env zsh
+eww open-many logout sleep poweroff reboot && sleep 3 &&  eww close logout sleep poweroff reboot 

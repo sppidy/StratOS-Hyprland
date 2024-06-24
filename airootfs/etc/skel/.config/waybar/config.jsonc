@@ -73,7 +73,7 @@
 	// "format": "",
 	"format": "",
 	"tooltip": false,
-	"on-click": "$HOME/.config/eww/dashboard/scripts/power"
+	"on-click": "$HOME/.config/eww/scripts/power"
     },
     "battery": {
 	"interval": 1,
