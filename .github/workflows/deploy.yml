@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository using git
         run: |
           pacman -Sy git sudo archiso --noconfirm
-          git clone --recurse-submodules https://github.com/zstg/StratOS-iso
+          git clone --recurse-submodules https://github.com/zstg/StratOS-Hyprland
 
       - name: Set up environment
         run: |
@@ -53,5 +53,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: StratOS-iso/output/StratOS-${{ env.BUILD_DATE }}-x86_64.iso
-          asset_name: StratOS-${{ env.BUILD_DATE }}-x86_64.iso
+          asset_name: StratOS-Hyprland-${{ env.BUILD_DATE }}-x86_64.iso
           asset_content_type: application/octet-stream
