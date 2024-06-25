@@ -31,9 +31,9 @@ dosfstools
 e2fsprogs
 edk2-shell
 efibootmgr
-# emacs
+## emacs
 ethtool
-# eww
+eww
 exfatprogs
 eza
 f2fs-tools
@@ -46,17 +46,19 @@ git
 github-cli
 
 # Hyprland-related
+## albert
+conky
 ly
 waybar
 mako
 pipewire-pulse
+network-manager-applet
 grim
 slurp
 swappy
 pinentry
 wireplumber
-# eww-wayland
-# pyprland
+## pyprland
 hyprland
 hyprcursor
 hyprlock
@@ -112,7 +114,7 @@ nano
 neovim
 networkmanager
 network-manager-applet
-# nwg-dock-hyprland
+## nwg-dock-hyprland
 # nfs-utils
 # nilfs-utils
 npm
