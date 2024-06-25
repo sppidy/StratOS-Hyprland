@@ -74,6 +74,7 @@ grub
 hdparm
 intel-ucode
 amd-ucode
+iputils
 iw
 iwd
 kcrash
@@ -105,13 +106,13 @@ mkinitcpio-openswap
 modemmanager
 mtools
 nano
-# nbd
+nbd
 # ndisc6
 neovim
 networkmanager
 network-manager-applet
 # nwg-dock-hyprland
-# nfs-utils
+nfs-utils
 # nilfs-utils
 npm
 ntfs-3g
