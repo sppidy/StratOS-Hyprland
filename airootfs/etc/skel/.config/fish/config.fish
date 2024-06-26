@@ -3,7 +3,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     source (/usr/bin/starship init fish --print-full-init | psub)
     # set -gx fish_key_bindings fish_vi_key_bindings
-    if [ "$IS_VTERM" != "1" ];
+    if test "$IS_VTERM" != "1"
 	fish_vi_key_bindings
     else
 	fish_default_key_bindings
@@ -92,3 +92,7 @@ function copy
     end
 end
 
+# Start Hyprland on Startup
+if test -z "$DISPLAY" -a (tty) = "/dev/tty1"
+	Hyprland
+end
